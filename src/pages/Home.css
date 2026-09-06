@@ -7,7 +7,7 @@
 
 .panel {
   display: block;
-  border: 1px solid rgba(111, 14, 14, 0.32);
+  border: 1px solid var(--line);
   background: var(--cream);
   text-decoration: none;
   color: inherit;
