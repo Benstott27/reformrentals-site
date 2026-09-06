@@ -28,6 +28,10 @@
 
 .nav__cta {
   display: none;
+  max-height: 40px;
+  padding: 0 22px;
+  font-size: 0.76rem;
+  line-height: 40px;
 }
 
 .nav__toggle {
@@ -115,8 +119,10 @@
 .nav__mobile-cta {
   align-self: flex-start;
   margin-top: 32px;
-  padding: 13px 26px;
-  font-size: 0.78rem;
+  max-height: 40px;
+  padding: 0 22px;
+  font-size: 0.76rem;
+  line-height: 40px;
 }
 
 @media (min-width: 900px) {

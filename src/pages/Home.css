@@ -1,12 +1,17 @@
 .home {
   display: flex;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 
 .panel {
   position: relative;
   flex: 1;
+  width: 100%;
   min-height: 58vh;
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: flex-end;
   overflow: hidden;
@@ -33,7 +38,7 @@
   height: 180px;
   background: linear-gradient(
     to top,
-    rgba(15, 12, 10, 0.48),
+    rgba(15, 12, 10, 0.3),
     rgba(15, 12, 10, 0)
   );
   z-index: -1;
