@@ -29,10 +29,10 @@ export default function Home() {
             loading="eager"
           />
           <div className="panel__content">
+            <h2 className="panel__title">Studio</h2>
             <span className="eyebrow panel__eyebrow">
               Opening And Expanding
             </span>
-            <h2 className="panel__title">Studio</h2>
             <p className="panel__line">
               Reformers for growing studios, without the upfront capital.
             </p>
@@ -52,10 +52,10 @@ export default function Home() {
             loading="lazy"
           />
           <div className="panel__content">
+            <h2 className="panel__title">Home</h2>
             <span className="eyebrow panel__eyebrow">
               Training And Teaching
             </span>
-            <h2 className="panel__title">Home</h2>
             <p className="panel__line">
               Studio-grade equipment, delivered and set up at home.
             </p>
