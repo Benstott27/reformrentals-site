@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 import SEO from '../components/SEO.jsx'
+import studioPhoto from '../assets/home/studio-photo.jpg'
+import homePhoto from '../assets/home/home-photo.jpg'
 import './Home.css'
 
 export default function Home() {
@@ -20,9 +22,11 @@ export default function Home() {
           className="panel panel--studio"
           aria-label="Explore Studio Hire"
         >
-          <div
-            className="panel__photo photo-placeholder"
-            data-label="Studio Photo"
+          <img
+            className="panel__photo"
+            src={studioPhoto}
+            alt="Align-Pilates reformers set up in a studio"
+            loading="eager"
           />
           <div className="panel__content">
             <span className="eyebrow panel__eyebrow">
@@ -41,9 +45,11 @@ export default function Home() {
           className="panel panel--home"
           aria-label="Explore Home Hire"
         >
-          <div
-            className="panel__photo photo-placeholder"
-            data-label="Home Photo"
+          <img
+            className="panel__photo"
+            src={homePhoto}
+            alt="An Align-Pilates reformer set up at home"
+            loading="lazy"
           />
           <div className="panel__content">
             <span className="eyebrow panel__eyebrow">
