@@ -23,7 +23,7 @@
 }
 
 .footer__tag {
-  color: #cfc6bf;
+  color: #C9BDB2;
   font-size: 0.9rem;
   margin: 0;
 }
@@ -41,7 +41,7 @@
 
 .footer__col a {
   font-size: 0.92rem;
-  color: #e9e4de;
+  color: #EEE7DE;
 }
 
 .footer__col a:hover {
@@ -57,7 +57,7 @@
   padding: 24px;
   border-top: 1px solid rgba(250, 248, 245, 0.15);
   font-size: 0.78rem;
-  color: #a89e97;
+  color: #9B8E84;
 }
 
 @media (min-width: 720px) {

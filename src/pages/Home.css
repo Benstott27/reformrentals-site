@@ -61,6 +61,27 @@
   color: var(--red);
 }
 
+@media (max-width: 859.98px) {
+  .home {
+    padding: 16px 20px;
+    gap: 16px;
+  }
+
+  .panel .panel__photo {
+    aspect-ratio: auto;
+    height: clamp(260px, 46dvh, 400px);
+    object-fit: cover;
+  }
+
+  .panel__content {
+    padding: 20px;
+  }
+
+  .panel__line {
+    margin-bottom: 12px;
+  }
+}
+
 @media (min-width: 860px) {
   .home {
     flex-direction: row;

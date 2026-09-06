@@ -1,11 +1,11 @@
 :root {
-  --cream: #F9F6F1;
-  --cream-dim: #F4F1EB;
-  --ink: #29231F;
+  --cream: #F7F2EA;
+  --cream-dim: #EFE8DE;
+  --ink: #241E1A;
   --ink-soft: #514A45;
-  --red: #8A0C0C;
+  --red: #7D1017;
   --red-dark: #690909;
-  --line: #ECE7DF;
+  --line: #DED5CA;
 
   --serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
   --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -135,7 +135,7 @@ p {
 }
 
 .section--dark p {
-  color: #cfc6bf;
+  color: #C9BDB2;
 }
 
 /* Buttons */
@@ -211,7 +211,7 @@ p {
 .photo-placeholder {
   position: relative;
   width: 100%;
-  background: linear-gradient(135deg, #e7e0d6 0%, #d8cfc2 100%);
+  background: linear-gradient(135deg, #E9E1D7 0%, #D8CCBE 100%);
   overflow: hidden;
   display: flex;
   align-items: flex-end;
@@ -272,7 +272,7 @@ textarea:focus-visible {
 }
 
 .cta__inner p {
-  color: #cfc6bf;
+  color: #C9BDB2;
 }
 
 /* Hero */

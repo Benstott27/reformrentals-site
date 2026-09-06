@@ -10,7 +10,7 @@ export default function EnquiryCTA({
   return (
     <section className="section section--dark section--bordered cta">
       <div className="container cta__inner">
-        <span className="eyebrow" style={{ color: '#cfc6bf' }}>
+        <span className="eyebrow" style={{ color: '#C9BDB2' }}>
           {eyebrow}
         </span>
         <h2>{heading}</h2>
