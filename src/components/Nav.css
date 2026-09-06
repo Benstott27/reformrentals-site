@@ -113,8 +113,10 @@
 }
 
 .nav__mobile-cta {
-  width: 100%;
+  align-self: flex-start;
   margin-top: 32px;
+  padding: 13px 26px;
+  font-size: 0.78rem;
 }
 
 @media (min-width: 900px) {

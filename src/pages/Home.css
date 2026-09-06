@@ -1,16 +1,15 @@
 .home {
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - 72px);
-  min-height: calc(100dvh - 72px);
 }
 
 .panel {
   position: relative;
   flex: 1;
-  min-height: 66vh;
+  min-height: 58vh;
   display: flex;
   align-items: flex-end;
+  overflow: hidden;
 }
 
 .panel__photo {
@@ -30,11 +29,11 @@
 .panel__content::before {
   content: '';
   position: absolute;
-  inset: -40px -24px auto -24px;
-  height: 220px;
+  inset: -32px 0 auto 0;
+  height: 180px;
   background: linear-gradient(
     to top,
-    rgba(15, 12, 10, 0.72),
+    rgba(15, 12, 10, 0.48),
     rgba(15, 12, 10, 0)
   );
   z-index: -1;
