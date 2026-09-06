@@ -25,6 +25,16 @@
   display: block;
 }
 
+.panel--studio {
+  overflow: hidden;
+}
+
+.panel--studio .panel__photo {
+  object-position: center 78%;
+  transform: scale(1.12);
+  filter: brightness(0.94) contrast(1.04);
+}
+
 .panel__content {
   padding: 24px;
 }
