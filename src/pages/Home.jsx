@@ -8,61 +8,45 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Pilates Reformer Hire for Studios & Home, UK"
-        description="Reform Rentals supplies and maintains premium Align-Pilates reformers and chairs, hired to studios and homes across the UK. Delivery, setup and maintenance included."
+        title="Pilates Reformer Hire & Rental | Reformrentals UK"
+        description="Professional Pilates equipment rental for studios, instructors and home users. Reformers, studio equipment, delivery, setup and ongoing support."
       />
 
-      <h1 className="visually-hidden">
-        Reform Rentals — Pilates Reformer Hire for Studios and Homes
-      </h1>
+      <main className="rr-home">
+        <section className="rr-home__hero">
+          <div className="rr-home__overlay" />
 
-      <div className="home">
-        <Link
-          to="/studios"
-          className="panel panel--studio"
-          aria-label="Explore Studio Hire"
-        >
-          <img
-            className="panel__photo"
-            src={studioPhoto}
-            alt="Align-Pilates reformers set up in a studio"
-            loading="eager"
-          />
-          <div className="panel__content">
-            <span className="eyebrow panel__eyebrow">
-              Opening And Expanding
-            </span>
-            <h2 className="panel__title">Studio</h2>
-            <p className="panel__line">
-              Reformers for growing studios, without the upfront capital.
-            </p>
-            <span className="link-arrow panel__link">Explore →</span>
-          </div>
-        </Link>
+          <div className="rr-home__hero-content">
+            <span className="rr-home__eyebrow">REFORMRENTALS</span>
 
-        <Link
-          to="/home-use"
-          className="panel panel--home"
-          aria-label="Explore Home Hire"
-        >
-          <img
-            className="panel__photo"
-            src={homePhoto}
-            alt="An Align-Pilates reformer set up at home"
-            loading="lazy"
-          />
-          <div className="panel__content">
-            <span className="eyebrow panel__eyebrow">
-              Training And Teaching
-            </span>
-            <h2 className="panel__title">Home</h2>
-            <p className="panel__line">
-              Studio-grade equipment, delivered and set up at home.
-            </p>
-            <span className="link-arrow panel__link">Explore →</span>
+            <h1>Reformer Rentals</h1>
+
+            <p>Professional Align-Pilates reformer hire</p>
           </div>
-        </Link>
-      </div>
+
+          <div className="rr-home__choices">
+            <Link to="/studios" className="rr-home__choice">
+              <span>Studio Use</span>
+              <span className="rr-home__arrow">→</span>
+            </Link>
+
+            <Link to="/home-use" className="rr-home__choice">
+              <span>Home Use</span>
+              <span className="rr-home__arrow">→</span>
+            </Link>
+
+            <Link to="/space-planner" className="rr-home__choice">
+              <span>Space Planner</span>
+              <span className="rr-home__arrow">→</span>
+            </Link>
+          </div>
+
+          <div className="rr-home__images" aria-hidden="true">
+            <img src={studioPhoto} alt="" />
+            <img src={homePhoto} alt="" />
+          </div>
+        </section>
+      </main>
     </>
   )
 }
